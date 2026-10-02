@@ -1,0 +1,22 @@
+{
+  "name": "drdb-label-backend",
+  "version": "1.0.0",
+  "description": "Backend pour DRDB MUSIC — catalogue, paiements FedaPay/PayPal, téléchargements et abonnement streaming",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "node-fetch": "^2.7.0",
+    "lowdb": "^1.0.0",
+    "uuid": "^9.0.1",
+    "multer": "^1.4.5-lts.1",
+    "ffmpeg-static": "^5.2.0",
+    "fluent-ffmpeg": "^2.1.3"
+  }
+}
